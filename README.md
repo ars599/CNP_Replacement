@@ -36,3 +36,12 @@
 python3 replace_fields.py -s 217 875 880 881 883 884 885 887 888 -i /g/data/p66/lz3062/replace_dumpfile/bi889a.da10500101_00 -r /g/data/p66/lz3062/replace_dumpfile/restart_dump.astart.esm1.5 -o /g/data/p66/lz3062/replace_dumpfile/delete_fields/bi889a.da10500101_00_modified
 '''
  Author: Lynn Zhou (linjing.zhou@bom.gov.au)
+ 
+ 
+ # Application (ars599):
+The restart dump has been test under the job u-cf888 the AINITIAL need to be replaced:
+
+u-cf888/suite.rc:            AINITIAL = /g/data/p66/ars599/ACCESSESM2/ancillary/ancil/lynn596a.da10500101_00
+
+ 
+ 
